@@ -1,0 +1,26 @@
+.container {
+  max-width: 1120px;
+  margin: 4rem auto 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    & + li {
+      margin-left: 2rem;
+    }
+
+    a {
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.contentTitle {
+  max-width: 1500px;
+  margin: auto;
+  text-align: center;
+
+  h1 {
+    line-height: 109px;
+    font-size: 5rem;
+    font-weight: 700;
+    
+    span {
+      color: var(--black-800);
+      text-shadow: 2px 0 0 var(--violet-500), -2px 0 0 var(--violet-500),
+        0 2px 0 var(--violet-500), 0 -2px 0 var(--violet-500),
+        1px 1px var(--violet-500), -1px -1px 0 var(--violet-500),
+        1px -1px 0 var(--violet-500), -1px 1px 0 var(--violet-500);
+    }
+  }
+}
